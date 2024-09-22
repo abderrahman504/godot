@@ -171,6 +171,7 @@
 			<param index="0" name="area" type="RID" />
 			<param index="1" name="monitorable" type="bool" />
 			<description>
+				If [code]true[/code], other monitoring areas can detect this area.
 			</description>
 		</method>
 		<method name="area_set_param">
@@ -205,6 +206,7 @@
 			<param index="1" name="shape_idx" type="int" />
 			<param index="2" name="disabled" type="bool" />
 			<description>
+				If [code]true[/code], the shape isn't used for detecting other areas or bodies.
 			</description>
 		</method>
 		<method name="area_set_shape_transform">
